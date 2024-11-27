@@ -36,7 +36,7 @@
 						<a href="nos-espaces.jsp">Espaces</a>
 					</li>
 					<li>
-						<a href="forum.jsp">Forum</a>
+						<a href="/projet3/forum.jsp">Forum</a>
 					</li>
 					<li>
 						FAQ
@@ -49,7 +49,7 @@
         </nav>
     </header>
     
-    <main>
+    <main class='w-full flex flex-col items-center'>
     	<jsp:include page="${pageContent}" />
     </main>
     <div class='flex w-full justify-center bg-white'>

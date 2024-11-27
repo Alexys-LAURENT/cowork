@@ -14,9 +14,9 @@
         reprehenderit earum, ea natus eaque beatae optio non!
     </p>
     <%-- INCLUDE ANSWERS --%>
-    <jsp:include page="/components/postAnswer.jsp" />
+    <jsp:include page="/components/forum/postAnswer.jsp" />
     <div class="w-full flex gap-1 pl-10">
-        <input type="text" class="w-full border rounded-md p-1" placeholder="Répondre...">
-        <button class="border border-orange-400 hover:bg-orange-400 hover:text-white rounded-md py-1 px-3 transition-all duration-150">Envoyer</button>
+        <input type="text" class="w-full border rounded-sm p-1" placeholder="Répondre...">
+        <button class="border border-orange-400 hover:bg-orange-400 hover:text-white rounded-sm py-1 px-3 transition-all duration-150">Envoyer</button>
     </div>
 </div>
