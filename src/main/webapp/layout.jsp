@@ -1,10 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class='w-full h-full'>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Application</title>
+    <title>${pageTitle}</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class='flex w-full justify-center bg-[#F7F7F9]'>
@@ -13,26 +13,26 @@
     <header>
         <nav class='w-full flex flex-col md:flex-row items-center p-2 bg-white gap-2 md:gap-0'>
         	<div class="w-full md:w-3/12 flex justify-center md:justify-start">
-        	<p class='text-2xl font-bold'>CoWork</p>
+        		<p class='text-2xl font-bold'>CoWork</p>
         	</div>
         	<div class="w-full md:w-6/12 ">
-        	<ul class='list-none flex flex-col md:flex-row gap-4 items-center justify-center text-base'>
-        	<li>
-        	Accueil
-        	</li>
-        	<li>
-        	Nos éspaces
-        	</li>
-        	<li>
-        	Forum
-        	</li>
-        	<li>
-        	FAQ
-        	</li>
-        	</ul>
+        		<ul class='list-none flex flex-col md:flex-row gap-6 items-center justify-center text-base'>
+					<li>
+						<a href="accueil.jsp">Accueil</a>
+					</li>
+					<li>
+						<a href="nos-espaces.jsp">Espaces</a>
+					</li>
+					<li>
+						<a href="forum.jsp">Forum</a>
+					</li>
+					<li>
+						FAQ
+					</li>
+				</ul>
         	</div>
         	<div class="w-full md:w-3/12 flex justify-end items-center">
-        	<button class='bg-orange-400 w-full md:w-auto rounded-sm text-white px-4 py-2 font-semibold '>Se connecter</button>
+        		<button class='bg-orange-400 w-full md:w-auto rounded-sm text-white px-4 py-2 font-semibold '>Se connecter</button>
         	</div>
         </nav>
     </header>
